@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+        <meta charset="UTF-8">
+        <link href="../../css/estilo.css" rel="stylesheet">
+        </head>
+        <body class="fondoCrear">
+                <form class="marcoCrear" id="formulario01" method="POST" action="../controladores/crear_usuario.php">
+                <label for="cedula">Cedula (*)</label>
+                <input class="texto" type="text" id="cedula" name="cedula" value="" placeholder="Ingrese el número de cedula ..."
+                required/>
+                <br>
+                <label for="nombres">Nombres (*)</label>
+                <input class="texto" type="text" id="nombres" name="nombres" value="" placeholder="Ingrese sus dos nombres
+                ..." required/>
+                <br>
+                <label for="apellidos">Apellidos (*)</label>
+                <input class="texto" type="text" id="apellidos" name="apellidos" value="" placeholder="Ingrese sus dos apellidos
+                ..." required/>
+                <br>
+                <label for="direccion">Dirección (*)</label>
+                <input class="texto" type="text" id="direccion" name="direccion" value="" placeholder="Ingrese su dirección ..."
+                required/>
+                <br>
+                <label for="telefono">Teléfono (*)</label>
+                <input class="texto" type="text" id="telefono" name="telefono" value="" placeholder="Ingrese su número telefónico
+                ..." required/>
+                <br>
+                <label for="fecha">Fecha Nacimiento (*)</label>
+                <input class="texto" type="date" id="fechaNacimiento" name="fechaNacimiento" value="" placeholder="Ingrese su
+                fecha de nacimiento ..." required/>
+                <br>
+                <label for="correo">Correo electrónico (*)</label>
+                <input class="texto" type="email" id="correo" name="correo" value="" placeholder="Ingrese su correo electrónico
+                ..." required/>
+                <br>
+                <label for="correo">Contraseña (*)</label>
+                <input class="texto" type="password" id="contrasena" name="contrasena" value="" placeholder="Ingrese su
+                contraseña ..." required/>
+                <br>
+                <input class="botones" type="submit" id="crear" name="crear" value="Aceptar" />
+                <input class="botones" type="reset" id="cancelar" name="cancelar" value="Cancelar" />
+                <br>
+                </form>
+                <input class="botones" type="button" id="regresar" name="regresar" value="Regresar" onclick="location.href='login.html'" />
+        </body>
+    </html>

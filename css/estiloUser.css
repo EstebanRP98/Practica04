@@ -1,0 +1,77 @@
+.marcoMensaje{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    padding: 17px;
+    height: 500px;
+    width: 490px;
+    position: relative;
+    top: 20%;
+    left: 25%;
+    color: #E1E1E1;
+}
+
+.fondoCrear{
+    background-image: url("../imagenes/fondoCrear.jpg");
+    background-repeat: no-repeat;
+}
+
+::placeholder{
+    color: rgba(61, 60, 60, 0.795);
+    font-size: 15px;
+}
+
+#textoMensaje{
+    color:rgb(29, 27, 27);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100%;
+    position: absolute;
+    left: 23%;
+    top: 40%;
+
+}
+
+#textoCorreo{
+    position: absolute;
+    top: 18%;
+    left: 20%;
+    margin: 3%;
+    width: 300px;
+    height: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+}
+
+#textoAsunto{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    left: 18%;
+    top: 25%;
+    margin: 5%;
+    width: 300px;
+    height: 30px;
+}
+
+#boton{
+    position: absolute;
+    left: 45%;
+    top: 90%;
+    background-color: rgba(141, 128, 128, 0.856); 
+    color: black;
+    border-color: antiquewhite;
+    
+}
+
+#titulo{
+    font-size: 180%;
+    color: wheat;
+}
+
+.menu ul li{
+    display: table-cell;
+    text-align: center;
+}
+
+.menu li{
+    width: 30%;
+    color: #E1E1E1;
+}

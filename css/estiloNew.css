@@ -1,0 +1,22 @@
+.marcoReg{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    padding: 17px;
+    height: 500px;
+    width: 490px;
+    position: relative;
+    top: 20%;
+    left: 25%;
+    color: #E1E1E1;
+    
+}
+
+.marcoReg input{
+    margin-top: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.marcoReg label{
+    margin-top: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

@@ -1,0 +1,86 @@
+#botonAceptar{
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    background-color: rgba(141, 128, 128, 0.856); 
+    color: black;
+    border-color: antiquewhite;
+    
+}
+#botonRegresar{
+    position: absolute;
+    left: 55%;
+    top: 40%;
+    background-color: rgba(141, 128, 128, 0.856); 
+    color: black;
+    border-color: antiquewhite;
+    
+}
+
+.marcoCuenta{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    padding: 17px;
+    height: 500px;
+    width: 490px;
+    position: relative;
+    top: 20%;
+    left: 25%;
+}
+
+
+.cuentaName{
+    color: #E1E1E1;
+    margin: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+    font-size: 100%;
+    position: absolute;
+    left: 15%;
+}
+
+.cuentaLabel{
+    background: rgba(119, 107, 107, 0.603);
+    color: white;
+    margin: 0 10px 0 10px;
+  padding: 0 10px 0 10px;
+    font-size: 80%;
+    position: absolute;
+    left: 50%;
+    border: rgba(133, 97, 97, 0.603);
+}
+
+.marcoCuenta input{
+    margin-top: 50%
+}
+
+.marcoCuenta label{
+    margin-top: 50%
+}
+
+.marcoLeer{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    padding: 17px;
+    height: 500px;
+    width: 490px;
+    position: relative;
+    top: 20%;
+    left: 25%;
+    color: #E1E1E1;
+}
+
+.marcoLeer input{
+    margin-top: 20%;
+    font-size: 130%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.marcoLeer label{
+    margin-top: 20%;
+    margin-right: 3%;
+    font-size: 130%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}   
+
+
+    
